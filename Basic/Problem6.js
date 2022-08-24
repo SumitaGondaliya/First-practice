@@ -10,3 +10,11 @@
         Hint => 1 feet = 0.3048 meter
       */
 }
+
+function FtoM(feet) {
+  const convert = 0.3048 * feet;
+  return convert;
+}
+
+let con = FtoM(1);
+console.log("Meter is :", con);
