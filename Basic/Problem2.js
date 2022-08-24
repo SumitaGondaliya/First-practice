@@ -9,8 +9,8 @@
 
 function addition(num1,num2)
 {
-      sum=num1+num2;
+     const sum=num1+num2;
       return sum;
 }
-addition(5,5)
-console.log("5+5 =",sum)
+let ans=addition(5,5)
+console.log("=>5+5 =",ans)
