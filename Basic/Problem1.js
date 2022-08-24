@@ -4,3 +4,6 @@
   
 */
 }
+{
+console.log("Hello World!")
+}
