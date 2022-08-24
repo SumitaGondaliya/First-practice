@@ -6,11 +6,9 @@
   */
 }
 
-
-function addition(num1,num2)
-{
-     const sum=num1+num2;
-      return sum;
+function addition(num1, num2) {
+  const sum = num1 + num2;
+  return sum;
 }
-let ans=addition(5,5)
-console.log("=>5+5 =",ans)
+let ans = addition(5, 5);
+console.log("=>5+5 =", ans);

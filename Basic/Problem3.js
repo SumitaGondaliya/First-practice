@@ -11,12 +11,12 @@
   */
 }
 
-let x=5;
-let y=10;
+let x = 5;
+let y = 10;
 let temp;
 
-temp=x
-x=y
-y=temp
+temp = x;
+x = y;
+y = temp;
 
-console.log("swapped value is->",x,y)
+console.log("swapped value is->", x, y);
