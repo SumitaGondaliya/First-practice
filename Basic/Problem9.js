@@ -12,10 +12,10 @@
             */
 }
 
-function AofS(radius) {
+function Aofc(radius) {
   const Area = 3.14 * radius * radius;
-  return Area;
+  return Area
 }
 
-let ans = AofS(5);
+let ans = Aofc(5);
 console.log("Area of circle is :", ans);
