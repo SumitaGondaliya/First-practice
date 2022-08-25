@@ -10,3 +10,7 @@
               Hint => use .toUpperCase() method to convert string to upper case.
           */
 }
+
+const string = "hello world";
+let answer = string.toUpperCase();
+console.log("Answer :", answer);
