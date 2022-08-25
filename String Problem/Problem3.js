@@ -10,3 +10,7 @@
             Hint => use .toLowerCase() method to convert string to lower case.
         */
 }
+
+const string = "HELLO WORLD";
+let answer=string.toLowerCase();
+console.log("Answer :",answer);
