@@ -11,3 +11,11 @@
             
             */
 }
+
+function AofS(radius) {
+  const Area = 3.14 * radius * radius;
+  return Area;
+}
+
+let ans = AofS(5);
+console.log("Area of circle is :", ans);

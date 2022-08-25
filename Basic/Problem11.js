@@ -11,3 +11,10 @@
     
                 */
 }
+
+function AofR(length, width) {
+  const area = length * width;
+  return area;
+}
+let rect = AofR(5, 5);
+console.log("Area of rectangle is :", rect);

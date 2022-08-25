@@ -11,3 +11,10 @@
               
               */
 }
+
+function AofS(side) {
+  const area = side* side;
+  return area;
+}
+let ans = AofS(5);
+console.log("Area of square is :", ans);
