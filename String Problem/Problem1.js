@@ -10,3 +10,7 @@
         Hint => use + operator to concatenate two string.
     */
 }
+
+const text1="Hello"
+const text2="World"
+console.log("Answer is :",text1+text2)
