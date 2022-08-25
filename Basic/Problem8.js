@@ -11,3 +11,10 @@
             exersice => Do google how to convert farenheit to celcius. only find the formula.
           */
 }
+
+function FC(Farenhit) {
+  const cel = ((Farenhit - 32) * 5) / 9;
+  return cel;
+}
+let convert = FC(5);
+console.log("Celcius is :", convert);
