@@ -10,3 +10,10 @@
     addition(9) ➞ 10
     addition(-3) ➞ -2
  */
+
+function addition(num) {
+  let add = ++num;
+  return add;
+}
+let ans = addition(-3);
+console.log("Incremented value is :", ans);
