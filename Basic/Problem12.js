@@ -22,14 +22,14 @@ function Count(Totaldays) {
   year = Totaldays / 365;
   week = (Totaldays % 365) / 7;
   days = (Totaldays % 365) % 7;
-  console.log("Year :", year);
-  console.log("Week :", week);
-  console.log("Days :", days);
+  console.log("Year :", Math.floor(year));
+  console.log("Week :", Math.floor(week));
+  console.log("Days :", Math.floor(days));
   return year, week, days;
 }
 
 /*let Totaldays = 1392;*/
-Count(1392);
+Count(373);
 
 /*const years = Totaldays / 365;
   const weeks = (Totaldays - 365 * years) / 7;
