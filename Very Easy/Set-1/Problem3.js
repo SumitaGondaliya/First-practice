@@ -8,3 +8,11 @@
 
  * Hint => The area of a triangle is: (base * height) / 2
  */
+
+function triArea(base, height) {
+  let area = (base * height) / 2;
+  return area;
+}
+
+let ans = triArea(7, 4);
+console.log("The area of triangle is :", ans);
