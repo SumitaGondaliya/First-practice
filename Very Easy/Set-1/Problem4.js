@@ -10,3 +10,11 @@
         - Ignore leap years and days between last birthday and now.
         - Expect only positive integer inputs.
  */
+
+function age(years) {
+  let days = years * 365;
+  return days;
+}
+
+let ans = age(65);
+console.log("Years :", ans,"Days");
