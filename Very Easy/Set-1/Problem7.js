@@ -6,5 +6,13 @@
  * 
  * Notes
     - 60 seconds in a minute, 60 minutes in an hour
-    - Don't forget to return your answer.
+    - Don't forget to return your answer.   
  */
+
+function timeconversion(hours) {
+  let con = (hours*60)*60;
+  return con;
+}
+
+let ans = timeconversion(2);
+console.log("Given hour is", ans, "seconds");
