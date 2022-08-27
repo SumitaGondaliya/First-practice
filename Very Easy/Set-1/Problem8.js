@@ -11,3 +11,14 @@
     - The side lengths of the triangle are positive integers.
     - Don't forget to return the result.
  */
+
+function nextEdge(side1, side2) {
+  let maxrange = side1 + side2 - 1;
+  return maxrange;
+}
+let thirdedge = nextEdge(5, 7);
+let thirdedge1 = nextEdge(9,2);
+let thirdedge2 = nextEdge(8,10);
+console.log("Maximum range of a triangle's third edge is :", thirdedge);
+console.log("Maximum range of a triangle's third edge is :", thirdedge1);
+console.log("Maximum range of a triangle's third edge is :", thirdedge2);
