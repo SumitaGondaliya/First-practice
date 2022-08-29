@@ -8,3 +8,13 @@
  *
  *
  */
+
+
+function lessThanOrEqualToZero(a){
+
+return a<=0? "true":"false"
+   
+}
+
+let result=lessThanOrEqualToZero(5)
+console.log("It is :",result)
