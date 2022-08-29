@@ -13,3 +13,12 @@
  *
  * Hint => Don't forget to return the result.
  */
+
+function lessThan100(a, b) {
+  let num = a + b < 100;
+  return num;
+}
+result = lessThan100(22, 15);
+console.log("Sum of both number is less than 100 and :", result);
+result1 = lessThan100(83, 34);
+console.log("Sum of both number is less than 100 and :", result1);
