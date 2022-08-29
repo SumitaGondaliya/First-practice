@@ -9,3 +9,10 @@
    Notes =>
       - Don't forget to return the result.
  */
+
+function isSameNum(num1, num2) {
+  return num1 === num2 ? "True" : "False";
+}
+
+let result = isSameNum(2,"2");
+console.log("Given num is :", result);
