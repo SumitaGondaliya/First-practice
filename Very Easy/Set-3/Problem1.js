@@ -8,4 +8,13 @@
     
     Hint => 60 seconds in a minute, 60 minutes in an hour
     Notes => Don't forget to return your answer.
+
  */
+
+function convert(h, m) {
+  let time = h * 3600 + m * 60;
+  return time;
+}
+
+let result = convert(2, 0);
+console.log("Total seconds are :", result);
