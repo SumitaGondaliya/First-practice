@@ -8,15 +8,16 @@
  *
  * Hint => join the string "something" with a space " " and the given argument
  */
+/*
+text = "Hello" + " " + "World!";
+text = "Hello".concat(" ", "World!");
 
+*/
 
-function giveMeSomething(str3){
-    const str1 = 'Something';
-    const str2=  '  ';
-    const str3= str1.concat(str1,str2,str3);
-    return str1,str2,str3
-
+function giveMeSomething(a){
+let string="something" + " " + a
+ return string
 }
 
-let string=giveMeSomething(Bob jane)
-console.log("concatenated string is :",string)
+let result=giveMeSomething(" better than nothing")
+console.log("special concatenated string is :",result)
