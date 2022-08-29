@@ -18,4 +18,18 @@
    * Notes =>
    *  - Don't forget to return the result.
    *  - The order of animals passed is animals(chickens, cows, pigs).
+   
+   5*2=10
+   2*4=8
+   8*4=32
+    
+   * 
  */
+
+function animals(c, c1, p) {
+  let number = c * 2 + c1 * 4 + p * 4;
+  return number;
+}
+
+let result = animals(2,3,5);
+console.log("TOtal legs of chikens,cows and pigs are :", result);
