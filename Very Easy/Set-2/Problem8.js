@@ -1,5 +1,6 @@
 /**
- * avaScript has a logical operator &&. The && operator takes two boolean values, and returns true if both values are true.
+ * JavaScript has a logical operator &&. The && operator takes two boolean values, and
+  returns true if both values are true.
    
 Consider a && b:
 
@@ -20,3 +21,17 @@ Consider a && b:
       andFunction(false, false) ➞ false
 
  */
+function andFunction(a, b) {
+  let number = a <= 10 && b >= 10;
+  return number;
+}
+
+let result = andFunction(9, 1);
+let result1 = andFunction(10, 50);
+let result2 = andFunction(70, 20);
+let result3 = andFunction(50, 20);
+
+console.log("Values are :", result);
+console.log("Values are :", result1);
+console.log("Values are :", result2);
+console.log("Values are :", result3);
