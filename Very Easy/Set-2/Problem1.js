@@ -8,11 +8,7 @@
  *
  * Hint => join the string "something" with a space " " and the given argument
  */
-/*
-text = "Hello" + " " + "World!";
-text = "Hello".concat(" ", "World!");
 
-*/
 
 function giveMeSomething(a){
 let string="something" + " " + a
