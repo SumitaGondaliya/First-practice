@@ -17,6 +17,5 @@ function comp(str1, str2) {
 
 let result = comp("Hello", "edabit");
 let result1 = comp("AB", "CD");
-
 console.log("String is", result);
 console.log("String is", result1);

@@ -10,6 +10,8 @@
 
     What have you learned so far that will permit you to do two different checks (value and type) with a single statement?
 
+===> I learned === operator to check value and its type together....
+
     Implement a function that returns true if the parameters are equal, and false if they are not.
 
     Examples =>
@@ -22,3 +24,10 @@
         checkEquality(1,  1) ➞ true
         // A number and a number: their type and value are equal.
  */
+
+function checkEquality(a, b) {
+  return a === b ? "True" : "false";
+}
+
+let result = checkEquality(undefined, undefined);
+console.log("Given value is :", result);
