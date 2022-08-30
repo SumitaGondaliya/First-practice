@@ -11,3 +11,9 @@
       - Don't forget to return the result.
 
  */
+
+function isEmpty(str) {
+  return str === "" ? "True" : "False";
+}
+let result = isEmpty(" ");
+console.log("string is", result);
