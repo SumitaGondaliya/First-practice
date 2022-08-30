@@ -11,3 +11,12 @@
 
 
  */
+
+function makePair(n1, n2) {
+  const arr = [];
+  arr.push(n1, n2);
+  return arr;
+}
+
+let result = makePair(1, 2);
+console.log("array contains", result);
