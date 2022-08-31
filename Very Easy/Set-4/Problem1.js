@@ -10,3 +10,9 @@
  *
  *  Hint => If reminder is 0 then it is divisible else not.
  */
+
+function dividesEvenly(a, b) {
+  return a % b === 0 ? "True" : "False";
+}
+let result = dividesEvenly(98,7);
+console.log("Value a is evenly divisble by b", result);
