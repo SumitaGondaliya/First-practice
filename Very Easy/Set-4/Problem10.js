@@ -19,3 +19,11 @@
 
         You can use the Math.pow() method to solve this challenge.
  */
+
+
+        function calculateExponent(b,e)
+        {
+            return Math.pow(b,e)
+        }
+        let result=calculateExponent(3,3)
+        console.log(result)
