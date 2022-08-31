@@ -10,3 +10,10 @@
         - All numbers will be whole.
         - All numbers will be positive.
  */
+
+function toInteger() {
+  let a = "12";
+  let b = parseInt(a);
+  console.log("Integer is", b);
+}
+toInteger();
