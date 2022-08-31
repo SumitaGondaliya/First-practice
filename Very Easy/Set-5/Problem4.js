@@ -1,7 +1,10 @@
 /**
  *    ---- Among Us Imposter Formula ----
  * 
-   Create a function that calculates the chance of being an imposter. The formula for the chances of being an imposter is 100 × (i / p) where i is the imposter count and p is the player count. Make sure to round the value to the nearest integer and return the value as a percentage.
+   Create a function that calculates the chance of being an imposter. 
+   The formula for the chances of being an imposter is 100 × (i / p) where i is the imposter count
+  and p is the player count. 
+  Make sure to round the value to the nearest integer and return the value as a percentage.
 
    Examples => 
       imposterFormula(1, 10) ➞ "10%"
@@ -14,3 +17,10 @@
       - Don't forget to return your answer.
  *
  */
+
+function imposterFormula(i, p) {
+  const num = 100 * (i / p);
+  return Math.round(num) + "%";
+}
+let result = imposterFormula(1, 10);
+console.log("chances of being an imposter is", result);
