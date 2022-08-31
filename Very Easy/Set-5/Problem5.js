@@ -19,3 +19,26 @@
     
         Refer these method of string to solve this problem. go to w3schools.com for more information.
  */
+
+function wordWithoutFirstCharacter(string) {
+  return string.slice(1, string.length)
+}
+
+let result = wordWithoutFirstCharacter("Hello")
+console.log("string is", result)
+
+function wordWithoutFirstCharacter(string)
+{
+    return string.substring(1)
+}
+
+let result1 = wordWithoutFirstCharacter("java")
+console.log("string is", result1)
+
+function wordWithoutFirstCharacter(string)
+{
+return string.substr(1)
+}
+
+let result2 = wordWithoutFirstCharacter("away")
+console.log("string is", result2)
