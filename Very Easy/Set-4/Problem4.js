@@ -9,3 +9,9 @@
     Notes => Don't forget to return your answer.
  *
  */
+
+function concatName(txt1, txt2) {
+  return (txt2 + ", ").concat(txt1);
+}
+let result = concatName("John", "Doe");
+console.log("Formatted stringn is", result);
