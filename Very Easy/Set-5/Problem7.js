@@ -12,3 +12,11 @@
         - If the name is "Bob", print "Hello, Bob!".
  
  */
+
+function greeting(name) {
+  let string = "Hello," + name
+  return string
+}
+
+let result = greeting("Subh")
+console.log("Greetings : ", result)
