@@ -9,3 +9,11 @@
  *
  *
  */
+
+ function getLastItem(array)
+  {
+	let num = array.length -1;
+	return array[num]
+ }
+ let result=getLastItem(["helllo","World","i"])
+ console.log("Last index of array is",result)
