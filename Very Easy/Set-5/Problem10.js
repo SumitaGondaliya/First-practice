@@ -14,3 +14,11 @@
     Hints =>
         - You can use the built-in Array.includes() method to check if an array contains a particular item.
  */
+
+        function findIndex(array,item)
+        {
+            return array.includes(item)? array.findIndex(array,item) : "-1";
+            
+        }
+        let result=findIndex([1,2,3,4,6],3) 
+        console.log("Item is available",result)
