@@ -8,11 +8,9 @@
 
  */
 
-
-        function reverse(array)
-        {
-            let a=array.reverse()
-            return a
-        }
-        let rev=reverse([1,2,3,4,8])
-        console.log("Reversed array is",rev)
+function reverse(array) {
+  let a = array.reverse();
+  return a;
+}
+let rev = reverse([1, 2, 3, 4, 8]);
+console.log("Reversed array is", rev);

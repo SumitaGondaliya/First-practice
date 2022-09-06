@@ -18,9 +18,8 @@
 
  */
 
-function flipBoolean(bool)
-{
-    return bool === true || bool === 1 ? "0": "1";
+function flipBoolean(bool) {
+  return bool === true || bool === 1 ? "0" : "1";
 }
-let result=flipBoolean(1)
-console.log("öpposite of the given boolean as a number is",result)
+let result = flipBoolean(1);
+console.log("öpposite of the given boolean as a number is", result);

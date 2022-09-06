@@ -16,9 +16,8 @@
          - You can use the % (modulo) operator to check if a number is even or odd.
  */
 
-         function isEvenOrOdd(num)
-         {
-            return num%2==0 ? "Even":"odd";
-         }
-         let result=isEvenOrOdd(3)
-         console.log("Number is",result)
+function isEvenOrOdd(num) {
+  return num % 2 == 0 ? "Even" : "odd";
+}
+let result = isEvenOrOdd(3);
+console.log("Number is", result);
